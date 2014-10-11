@@ -1,6 +1,6 @@
 
 
-public class MaximumSibArray {
+public class MaximumSubArray {
 	public int maxSubArray(int[] A) {
 		int[] dp = new int[A.length + 1];
 		for(int i=A.length-1; i>=0; i--) {
@@ -21,7 +21,7 @@ public class MaximumSibArray {
 	
 	public static void main(String[] args) {
 		int[] array = { -1 };
-		int result = new MaximumSibArray().maxSubArray(array);
+		int result = new MaximumSubArray().maxSubArray(array);
 		System.out.println(result);
 	}
 }
