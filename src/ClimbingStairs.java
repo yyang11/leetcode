@@ -1,7 +1,6 @@
 
-
 public class ClimbingStairs {
-	public int climbStairs(int n) {
+    public int climbStairs(int n) {
 		int[] ways = new int[n+2];
 		ways[0] = 0;
 		ways[1] = 1;
