@@ -1,5 +1,3 @@
-package undone;
-
 public class MedianOfTwoSortedArrays {
   public double findMedianSortedArrays(int A[], int B[]) {
     return doFind(A, 0, B, 0, (A.length + B.length + 1) / 2);
