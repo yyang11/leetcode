@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce30d4eb-75e2-4620-964f-a0d5b185735f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordBreak.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordBreakII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/undone/MedianOfTwoSortedArrays.java" afterPath="$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -653,7 +649,11 @@
       <created>1413601966916</created>
       <updated>1413601966916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="word break">
+      <created>1413642119311</created>
+      <updated>1413642119311</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -728,7 +728,8 @@
     <MESSAGE value="unique path" />
     <MESSAGE value="palindrome partitioning&#10;" />
     <MESSAGE value="permutations" />
-    <option name="LAST_COMMIT_MESSAGE" value="permutations" />
+    <MESSAGE value="word break" />
+    <option name="LAST_COMMIT_MESSAGE" value="word break" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
