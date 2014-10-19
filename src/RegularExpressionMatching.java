@@ -1,58 +1,32 @@
-
-
-/**
- * Crazy driving problem
- */
 public class RegularExpressionMatching {
-	private final int NULL = 0;
-	private final int TRUE = 1;
-	private final int FALSE = 2;
-	private int[][] dp;
-	
-    public boolean isMatch(String s, String p) {
-    	dp = new int[s.length() + 1][p.length() + 1];
-    	return doMatch(s, 0, p, 0);
+  public boolean isMatch(String s, String p) {
+    boolean[][] dp = new boolean[s.length() + 1][p.length() + 1];
+    dp[0][0] = true;
+    for(int i=0; i<p.length(); i++) {
+      if(p.charAt(i) == '*')
+        dp[0][i + 1] = dp[0][i - 1];
     }
-	
-    private boolean doMatch(String s, int m, String p, int n) {
-    	if(dp[m][n] != NULL)
-    		return dp[m][n] == TRUE;
-    	if(s.length()==m) {
-    		if(p.length()==n)
-    			return setDP(true, m, n);
-    		if(p.length()==n+1 || p.charAt(n+1)!='*')
-    			return setDP(false, m, n);
-    		return setDP(doMatch(s, m, p, n + 2), m, n);
-    	}
-    	if(p.length()==n)
-    		return setDP(false, m, n);
-    	
-    	//p=X*
-    	if(p.length()>n + 1 && p.charAt(n + 1)=='*') {
-    		boolean ignoreStar = doMatch(s, m, p, n + 2);
-    		boolean normalStar = false;
-    		if(p.charAt(n)=='.' || s.charAt(m)==p.charAt(n))
-    			normalStar = doMatch(s, m + 1, p, n);
-    		return setDP(ignoreStar || normalStar, m, n);
-    	}
-    	else {
-    		if(p.charAt(n)=='.' || s.charAt(m)==p.charAt(n))
-    			return setDP(doMatch(s, m + 1, p, n + 1), m, n);
-    		else
-    			return setDP(false, m, n);
-    	}
+    for(int i=0; i<s.length(); i++) {
+      for(int j=0; j<p.length(); j++) {
+        if(s.charAt(i) == p.charAt(j) || p.charAt(j) == '.') {
+          dp[i + 1][j + 1] = dp[i][j];
+        }
+        else if(p.charAt(j) == '*') {
+          if(s.charAt(i) == p.charAt(j - 1) || p.charAt(j - 1) == '.')
+            dp[i + 1][j + 1] = dp[i + 1][j] || dp[i + 1][j - 1] || dp[i][j + 1];
+          else
+            dp[i + 1][j + 1] = dp[i + 1][j - 1];
+        }
+      }
     }
-    
-    private boolean setDP(boolean boolResult, int m, int n) {
-    	int intRes = boolResult ? TRUE : FALSE;
-    	dp[m][n] = intRes;
-    	return boolResult;
-    }
-    
-    public static void main(String[] args) {
-    	String s = "abcdede";
-    	String p = "ab.*de";
-    	boolean result = new RegularExpressionMatching().isMatch(s, p);
-    	System.out.println(result);
-	}
+    return dp[s.length()][p.length()];
+  }
+
+  public static void main(String args[]) {
+    boolean result = new RegularExpressionMatching().isMatch("abcd", "d*");
+    System.out.println(result);
+  }
+
+  //  public boolean isMathchNDP(String s, String p) {
+  //  }
 }
