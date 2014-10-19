@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce30d4eb-75e2-4620-964f-a0d5b185735f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WordLadderII.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/undone/WordLadderII.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/undone/LargestRectangleInHistogram.java" afterPath="$PROJECT_DIR$/src/undone/LargestRectangleInHistogram.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode.iws" />
@@ -35,6 +32,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LuciusYuNju" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -669,7 +671,11 @@
       <created>1413642119311</created>
       <updated>1413642119311</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="word ladder">
+      <created>1413724248281</created>
+      <updated>1413724248281</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -745,7 +751,8 @@
     <MESSAGE value="palindrome partitioning&#10;" />
     <MESSAGE value="permutations" />
     <MESSAGE value="word break" />
-    <option name="LAST_COMMIT_MESSAGE" value="word break" />
+    <MESSAGE value="word ladder" />
+    <option name="LAST_COMMIT_MESSAGE" value="word ladder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
