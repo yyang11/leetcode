@@ -1,11 +1,8 @@
-package undone;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-//the subsets of [2, 2, 2] is [[], [2], [2, 2], [2, 2,2]]
 public class SubsetsII {
   public List<List<Integer>> subsetsWithDup(int[] num) {
     Arrays.sort(num);
@@ -31,32 +28,4 @@ public class SubsetsII {
     for(int i=0; i<numDup; i++)
       subset.removeLast();
   }
-
-  public static void main(String args[]) {
-    int[] num = new int[]{1, 2, 2};
-    Object result = new SubsetsII().subsetsWithDup(num);
-    System.out.println(result);
-  }
 }
-  /*non-recursive solution
-  vector<vector<int> > subsetsWithDup(vector<int> &S) {
-    sort(S.begin(), S.end());
-    vector<vector<int>> result(1);
-    int oldval=S[0];
-    int oldj=0;
-    for(int i=0; i<S.size(); i++){
-      int temp=oldj;
-      if(S[i]!=oldval){
-        oldval=S[i]; temp=0;
-      }
-      int j=result.size();
-      oldj=j;
-      while(j-->temp){
-        //note temp here help avoid creating duplicate subsets
-        result.push_back(result[j]);
-        result.back().push_back(S[i]);
-      }
-    }
-    return result;
-  }
-  */

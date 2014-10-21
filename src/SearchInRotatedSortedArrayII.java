@@ -1,4 +1,5 @@
 
+//nice problem
 public class SearchInRotatedSortedArrayII {
     public boolean search(int[] A, int target) {
     	int l = 0, r = A.length - 1;
