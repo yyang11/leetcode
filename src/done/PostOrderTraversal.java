@@ -1,9 +1,10 @@
-import javax.swing.tree.TreeNode;
+package done;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class Postorder {
+public class PostOrderTraversal {
   public List<Integer> postorderTraversal(TreeNode root) {
     Stack<TreeNode> stack = new Stack<TreeNode>();
     LinkedList<Integer> result = new LinkedList<Integer>();
