@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce30d4eb-75e2-4620-964f-a0d5b185735f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/done/PostOrderTraversal.java" afterPath="$PROJECT_DIR$/src/done/PostOrderTraversal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/done/PreorderTraversal.java" afterPath="$PROJECT_DIR$/src/done/PreorderTraversal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java" afterPath="$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/done/WordBreakII.java" afterPath="$PROJECT_DIR$/src/done/WordBreakII.java" />
     </list>
     <ignored path="LeetCode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,25 +30,13 @@
       <file leaf-file-name="SubstringWithConcatenationOfAllWords.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2494759" vertical-offset="0" max-vertical-offset="748">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.2851153" vertical-offset="0" max-vertical-offset="935">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#263#272#0" expanded="true" />
-                <element signature="e#370#386#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostOrderTraversal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/done/PostOrderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#222#232#0" expanded="true" />
+                <element signature="e#283#292#0" expanded="true" />
+                <element signature="e#390#407#0" expanded="true" />
+                <element signature="e#452#469#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +104,10 @@
         <option value="$PROJECT_DIR$/src/undone/ValidateBST.java" />
         <option value="$PROJECT_DIR$/src/undone/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/done/InorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java" />
         <option value="$PROJECT_DIR$/src/done/PostOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/done/PreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/done/WordBreakII.java" />
+        <option value="$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java" />
       </list>
     </option>
   </component>
@@ -766,14 +756,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1859375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -910,25 +900,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/done/PreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39203355" vertical-offset="0" max-vertical-offset="544">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#219#229#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/done/WordBreakII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/done/PostOrderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5345912" vertical-offset="0" max-vertical-offset="477">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#222#232#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#222#232#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/undone/SubstringWithConcatenationOfAllWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2494759" vertical-offset="0" max-vertical-offset="748">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.2851153" vertical-offset="0" max-vertical-offset="935">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#263#272#0" expanded="true" />
-            <element signature="e#370#386#0" expanded="true" />
+            <element signature="e#283#292#0" expanded="true" />
+            <element signature="e#390#407#0" expanded="true" />
+            <element signature="e#452#469#0" expanded="true" />
           </folding>
         </state>
       </provider>
