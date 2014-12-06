@@ -11,9 +11,9 @@ public class Pow {
     }
     
     /*
+    //non-recursive
     public double pow(double x, int n) {
-        //non-recursive
-        //awesome!
+        //avoid int overfow, awesome!
         if(n<0) return 1/(x*pow(x,-(n+1)));
         if(n==0) return 1;
         double left=x,right=1;
